@@ -1,0 +1,138 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #e7c3ab;
+  font-family: sans-serif;
+}
+
+
+header {
+  background-color: #4c4e52;
+  box-shadow: 0 0 25px 0 black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#mainLogo {
+  padding: 5%;
+}
+
+.dropDownButtons {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin-left: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropDownButtons:hover {
+  cursor: pointer;
+}
+
+#headerNavbarDropdown {
+  width: max-content;
+  /* position: relative; */
+}
+
+#headerNavbarDropdown>a {
+  padding: 10px 50px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#headerNavBarDropdown a:hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.genericBox {
+  text-align: center;
+  align-items: center;
+  background-color: #ABCFE7;
+  margin: 50px auto;
+  width: max-content;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+
+.genericTextBox>h1 {
+  font-style: italic;
+}
+
+.genericTextBox > p {
+  text-align: left;
+}
+
+#homePageContent {
+  display: flex;
+  align-items: center;
+}
+
+#engineImageContainer {
+  width: 25%;
+  height: 25%;
+}
+
+#engineImage {
+  width: 100%;
+  height: 100%;
+}
+
+#whoAreWe {
+  width: 25%;
+}
+
+#lawnMowerImageContainer {
+  width: 25%;
+  height: 25%;
+}
+
+#lawnMowerImage {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  display: grid;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #4c4e52;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: small;
+}
+
+.column1 {
+  grid-column: 1;
+}
+
+.column2 {
+  grid-column: 2;
+}
+
+.column3 {
+  grid-column: 3;
+}
+
+.row1 {
+  grid-row: 1;
+}
+
+.row2 {
+  grid-row: 2;
+}
+
+.longColumnWrapper {
+  display: inline-grid;
+  justify-content: space-around;
+  column-gap: 5px;
+}
